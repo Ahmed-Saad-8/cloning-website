@@ -1,0 +1,130 @@
+.about-us-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+    max-width: 95lvw;
+    padding-top: 2rem;
+
+}
+
+.first-about-us-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    padding-left: 4rem;
+    min-width: 45lvw;
+}
+
+.second-about-us-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.sushi-3{
+display: flex;
+flex-direction: row;
+align-self: flex-start;
+gap: 5rem;
+background-color: white;
+}
+
+.sushi-2{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap: 5rem;
+    background-color: white;
+    }
+
+.sushi-3 img{
+    opacity: 0;
+    max-width: 20rem;
+    animation: fadein forwards;
+    animation-timeline: view();
+    animation-range-start: 200px;
+    animation-range-end: 600px;
+}
+
+.sushi-3 p{
+    font-size: 4rem;
+    color: wheat;
+    align-self: center;
+}
+
+.sushi-2 img{
+    opacity: 0;
+    max-width: 20rem;
+    animation: fadein forwards;
+    animation-timeline: view();
+    animation-range-start: 50px;
+    animation-range-end: 300px;
+}
+
+.sushi-2 p{
+    font-size: 4rem;
+    color: wheat;
+    align-self: center;
+}
+
+.first-about-us-section button{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+    gap: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--color-white);
+    background-color: var(--black-400);
+    border: 1px solid;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    max-width: 20rem;
+    
+}
+
+.second-about-us-section{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+    gap: 2rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    min-width: min-content; 
+    text-align: center;
+    animation: fadein forwards;
+    animation-timeline: view();
+    animation-range-start: 200px;
+    animation-range-end: 600px;
+}
+
+.about-us-paragraph1{
+    color: var(--gray-100);
+    font-size: 1.4rem;
+    
+
+}
+
+.about-us-paragraph2{
+    
+    color: var(--black-400);
+    font-size: 5rem;
+    
+}
+
+.about-us-paragraph3{
+    color: var(--gray-100);
+    font-size: 1.8rem;
+    text-justify: newspaper;
+
+}
+
+
+
+
+

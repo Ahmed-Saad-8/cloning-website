@@ -1,0 +1,153 @@
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+    background-color: var(--color-creamson);
+    
+    
+}
+
+
+
+.hero-section-image{
+    margin-left: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    min-width: 35rem;
+    max-height: 40rem;
+    background-color: var(--primary-color);
+}
+
+
+
+.hero-section-image img{
+    position: absolute;
+    max-height: 45rem;
+    max-width: 40rem;
+    animation: moveleft 2s forwards;
+
+}
+
+.hero-section-image h1{
+    padding-top: 20rem;
+    padding-left: 4rem;
+    font-size: 6rem;
+    color: var(--color-white);
+}
+
+.hero-section-paragraphs{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: max-content;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    animation: fadein 2s forwards;
+   
+}
+
+.paragraph1{
+    font-size: 6rem;
+    color: var(--black-200);
+
+}
+
+.paragraph2{
+    font-size: 1.5rem;
+    color: var(--black-300);
+}
+
+.hero-section-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    
+}
+
+.order-now{
+    font-size: 2rem;
+    background-color: black;
+    color: var(--color-white);
+    padding: 1rem;
+    border: 1px solid var(--black-100);
+    border-radius: 40px;
+}
+
+button.order-now{
+    cursor: pointer;
+}
+
+
+
+.how-to-order{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+button.how-to-order {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+.hero-section-customer{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    background-color: white;
+    
+}
+
+.customer-reviews-no-behavoir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    padding-left: 3rem;
+    
+    
+}
+
+.customer-reviews-no{
+    font-size: 2rem;
+    
+}
+
+.customer-review-behavoir{
+    font-size: 1.5rem;
+}
+
+.customer-comments{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.customer-comments img{
+    max-width: 3rem;
+    padding-left: 1rem;
+    border-left: 1px solid gray;
+}
+
+.customer-comments p{
+    font-size: 1rem;
+}

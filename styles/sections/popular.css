@@ -1,0 +1,118 @@
+.popular-section{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: var(  --primary-color);
+}
+
+.popular-section-title{
+    align-self: center;
+    font-size: 3rem;
+    color: var(--color-white);
+}
+
+.popular-section-btns-div{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    justify-content: space-around;
+    overflow-x: hidden;
+}
+
+.popular-section-btns-div button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-white);
+    background-color: #be595e;
+    border: 1px solid transparent;
+    border-radius: 45px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.popular-section-btns-div .all{
+    padding-inline: 2rem;
+    font-size: 0.5;
+    border-radius: 30px;
+    
+}
+
+.popular-section-cards-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    flex: 1;
+    
+    
+}
+
+.card-1,
+.card-2,
+.card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 23rem;
+    gap: 2rem;
+    background-color: var(--primary-clr);
+    padding: 2rem;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+.sushi-12-card,
+.sushi-11-card,
+.sushi-10-card{
+    max-width: 15rem;
+}
+
+
+
+.card-1,
+ .card-2,
+  .card-3{
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+
+
+.rating-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.explore-all{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-self: center;
+    font-size: 1.4rem;
+    padding: 1rem;
+    color: var(--color-white);
+    background-color: var(--black-400);
+    border: 1px solid transparent;
+    border-radius: 35px;
+    cursor: pointer;
+
+}
+
+.explore-all img{
+    max-width: 1rem;
+}
+
+.active:hover{
+    scale: 1.2;
+    background-color: var(--color-white);
+    color: var(--black-200);
+}

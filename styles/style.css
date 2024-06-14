@@ -1,0 +1,266 @@
+
+
+@import url(sections/header.css);
+@import url(sections/hero.css);
+@import url(sections/about.css);
+@import url(sections/popular.css);
+@import url(sections/trendign.css);
+@import url(sections/subscripe.css);
+@import url(sections/footer.css);
+:root{
+  --primary-color: #b1454a;
+  --secondary-color: #121212;
+  --primary-clr: #be595e;
+
+  --black-200: #020202;
+  --black-300: #333333;
+  --black-400: #1f1e31;
+  --black-500: #555555;
+  --gray-100: #888888;
+
+  --color-white: #fff;
+  --color-creamson: #fff0de;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.body{
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: var(--color-creamson);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 900px) {
+
+ 
+  
+  :root{
+    font-size: 12px;
+  }
+
+  .header-section{
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .navigation-bar-mobile{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 2rem;
+    color: black;
+    max-width: 2rem;
+    
+    overflow-x: hidden;
+  }
+
+ 
+
+  
+
+  .navigation-bar-mobile:hover{
+    .header-navbar-mobile{
+      visibility: visible;
+    }
+
+   
+    max-width: fit-content;
+  }
+
+ 
+
+
+  .first-header-section h1{
+    padding: 0.5rem;
+    
+
+  }
+
+
+  .hero-section{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+  }
+
+  .about-us-section{
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  .hero-section-image{
+    min-width: 100lvw;
+  }
+
+
+ 
+
+  .nav-bar{
+    display: none;
+  }
+
+
+
+ 
+
+  
+
+  .first-header-section{
+    margin: 0;
+  }
+  
+
+  .header-navbar{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-section{
+    
+    background-color: var(--primary-color);
+  }
+
+  .hero-section-image img{
+    max-width: 30rem;
+  }
+
+  .hero-section-image{
+    margin: 0;
+
+  }
+
+  .customer-comments p{
+    box-sizing: content-box;
+  }
+
+  .about-us-section{
+    flex-wrap: wrap;
+  }
+
+  .first-about-us-section{
+    min-width: min-content;
+  }
+
+ 
+
+  .popular-section-cards-div{
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+  }
+
+  .popular-section-btns-div{
+    overflow-x: scroll;
+  }
+
+  .active:hover{
+    scale: 1.1;
+  }
+
+  .arrows-btn img{
+    display: none;
+  }
+
+  .discover{
+    min-width: 100lvw;
+    border-radius: 0;
+    padding: 0.5rem;
+    overflow: hidden;
+  }
+
+  .arrows-btn img{
+    max-width: 0;
+    visibility: hidden;
+    
+    
+  }
+
+  img.vertical-arrow{
+    max-height: 0;
+    visibility: hidden;
+  }
+
+  .first-trending-section-paragraphs,
+  .first-trending-section-image,
+  .second-trending-section-paragraphs,
+  .second-trending-section-image{
+    flex-grow: 1;
+    box-sizing: unset;
+  }
+
+  .hero-section-customer{
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .first-about-us-section button{
+    min-width: 100lvw;
+  }
+
+  .footer-list{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscripe-section-input-email{
+    max-width: min-content;
+  }
+
+
+  .first-trending-section,
+  .second-trending-section{
+    flex-direction: column;
+  }
+
+  .social-media{
+    flex-direction: column;
+  }
+}
+
+@keyframes fadein{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%{
+    opacity: 0.50;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes moveleft {
+  0%{
+    transform: translateX(-40rem);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes navigation {
+  0%{transform: translateX(0);}
+  100%{transform: translateX(-5rem);}
+}
+

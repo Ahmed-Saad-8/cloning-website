@@ -1,0 +1,70 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.footer h1{
+    font-size: 2rem;
+    background: linear-gradient(to left ,
+    var(--primary-color), black);
+    color: transparent;
+    background-clip: text;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none
+}
+
+.footer-list li{
+    margin-left: 3rem;
+    font-size: 1.4rem;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-list li a{
+    text-decoration: none;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+
+.facebook{
+    display: flex;
+    align-self: center;
+    background-color: black;
+    padding: 0.75rem;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.instagram{
+    display: flex;
+    align-self: center;
+    background-color: black;
+    padding: 0.75rem;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.twitter{
+    display: flex;
+    align-self: center;
+    background-color: black;
+    padding: 0.75rem;
+    border: 1px solid;
+    border-radius: 100%;
+}
